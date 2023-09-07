@@ -1,0 +1,136 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    background-color:rgb(146, 184, 248);
+    
+  }
+  html{
+    font-size: 16px;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.container.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container.content{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    margin-top: 2rem;
+    column-gap: 5rem;
+    background-image: url(../img/Fotos_locaties/Sanne\ Bas\ -\ Curio\ -\ Knipplein\ 11-1.jpg);
+}
+
+header{
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url(../img/Fotos_locaties/Sanne\ Bas\ -\ Curio\ -\ Knipplein\ 11-1.jpg);
+    background-position: center;
+    box-shadow: inset 0 0 0 1000px rgba(255, 119, 0, 0.5);
+}
+.logo{
+    max-width: 250px;
+}
+.welcome{
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-right: 5rem;
+    border-radius: 15px;
+  
+    background-repeat: no-repeat;
+    background-color: #f5fcf881;
+    
+    box-shadow: #999 1px 1px 3px;
+}
+header h1{
+    color: rgba(0,79,255,255);
+    font-family: Oxanium;
+    font-weight: 600;
+    margin: 0 5rem;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    font-family: Oxanium;
+    font-weight: 600;
+}
+.logo2{
+    max-width: 200px;
+    padding-right: 2rem;
+}
+
+body {
+    margin: 0;
+  }
+
+aside{
+    background-color:rgba(255, 119, 0, 0.5);
+    /*background-image: url(../img/Fotos_locaties/Sanne\ Bas\ -\ Curio\ -\ Knipplein\ 11-3.jpg);*/
+}
+
+/*cards*/
+.main_Cards{
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    grid-auto-flow: dense;
+    grid-template-rows: auto;
+    grid-gap: 4%;
+    padding-bottom: 4%;
+  }
+  .card{
+    border-radius: 15px;
+  
+    background-repeat: no-repeat;
+    background-color: #f5fcf8d9;
+    
+    box-shadow: #999 1px 1px 3px;
+    max-height: 450px;
+  
+  }
+  h3 {
+    font-size: 1em;
+  }
+  .image{
+    background-size: cover;
+  }
+  .top{
+    height: 50%;
+    background-clip: border-box;
+    background-size: 150%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .text{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    
+  }
+  .left{
+    min-width: 50%;
+  }
+  .lefttext{
+    margin: 5px;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+  }
+  p.description{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    font-size: small;
+    color: #0B351D;
+  }
