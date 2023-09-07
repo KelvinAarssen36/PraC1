@@ -134,3 +134,11 @@ aside{
     font-size: small;
     color: #0B351D;
   }
+  iframe {
+    overflow-clip-margin: content-box !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+}
