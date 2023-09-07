@@ -99,6 +99,16 @@ aside{
     max-height: 450px;
   
   }
+  .cardG{
+    border-radius: 15px;
+  
+    background-repeat: no-repeat;
+    background-color: #15fe7ad9;
+    
+    box-shadow: #999 1px 1px 3px;
+    max-height: 450px;
+  
+  }
   h3 {
     font-size: 1em;
   }
