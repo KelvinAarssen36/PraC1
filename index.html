@@ -20,32 +20,35 @@
         <aside>
             <div class="navi">
                 <nav>
-                    <a href="#welcome">Welkom!</a> 
-                    <a href="#software">Software Vakken</a> 
-                   <a href="#generiek">Generiek Vakken</a>
-                   <a href="#iframe">Bekijk de School</a>  
-                </nav>   
+                    <ul>
+                        <li><div class="klok">
+                            <script type="text/javascript">
+                                function display_c() {
+                                    var refresh = 1000; // Refresh rate in milli seconds
+                                    mytime = setTimeout('display_ct()', refresh)
+                                }
+            
+                                function display_ct() {
+                                    var x = new Date()
+                                    var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getFullYear();
+                                    x1 = x1 + " - " + x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds();
+                                    document.getElementById('ct').innerHTML = x1;
+                                    display_c();
+                                }
+                            </script>
+                            </head>
+            
+                            <body onload=display_ct();>
+                                <span id='ct'></span>
+                        </div></li>
+                        <li><a href="#welcome">Welkom!</a> </li>
+                        <li><a href="#software">Software Vakken</a> </li>
+                        <li><a href="#generiek">Generiek Vakken</a></li>
+                        <li><a href="#iframe">Bekijk de School</a> </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="klok">
-                <script type="text/javascript">
-                    function display_c() {
-                        var refresh = 1000; // Refresh rate in milli seconds
-                        mytime = setTimeout('display_ct()', refresh)
-                    }
-
-                    function display_ct() {
-                        var x = new Date()
-                        var x1 = x.getMonth() + 1 + "/" + x.getDate() + "/" + x.getFullYear();
-                        x1 = x1 + " - " + x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds();
-                        document.getElementById('ct').innerHTML = x1;
-                        display_c();
-                    }
-                </script>
-                </head>
-
-                <body onload=display_ct();>
-                    <span id='ct'></span>
-            </div>
+            
         </aside>
         <main>
             <div class="welcome">
@@ -58,7 +61,8 @@
                     enthousiasme. Jij kan later namelijk doen wat je wilt. Bouw een website voor dat hippe Italiaanse
                     restaurant of help advocaten in de rechtszaal. Of monteer straks de afleveringen van Holland’s got
                     Talent. Wil jij liever internationaal? Bij ons is alles mogelijk.</p>
-                <p id="software">Onze school helpt je met jouw toekomst. Niet alleen met leuke opleidingen waar je super veel leert.
+                <p id="software">Onze school helpt je met jouw toekomst. Niet alleen met leuke opleidingen waar je super
+                    veel leert.
                     We nodigen ook vaak mensen uit het bedrijfsleven uit. Zij vertellen alles over hun beroep. Stel jouw
                     vragen aan advocaten en marketingmanagers uit het werkveld. Zo leer jij alles over je toekomstige
                     vak. Kom je eens langs?</p>
@@ -127,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <h1  class="color">Generieke Vakken</h1>
+            <h1 class="color">Generieke Vakken</h1>
             <div class="main_Cards">
                 <div class="cardB">
                     <div class="text">
@@ -160,20 +164,24 @@
                     <div class="text">
                         <div class="left">
                             <div class="lefttext">
-                                <h3 >Bugerschap</h3>
+                                <h3>Bugerschap</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
     </div>
-    <div class="container content2">
-        <aside></aside>
+    <div class="container content_iframe">
+        <aside class="aside2"></aside>
         <div class="iframer">
             <h1 id="iframe">Bekijk de school</h1>
-            <p>Wil je nog eens een kijkje nemen in ons gebouw? Maak dan een digitale tour. Druk op de pijltjes en loop door de school. Je ziet onze lokalen, de praktijkruimtes en de aula. Of klik op de drie streepjes linksboven om meteen naar een bepaald deel van het gebouw te gaan. Zie jij jezelf hier de komende jaren al rondlopen?</p>
+            <p>Wil je nog eens een kijkje nemen in ons gebouw? Maak dan een digitale tour. Druk op de pijltjes en loop
+                door de school. Je ziet onze lokalen, de praktijkruimtes en de aula. Of klik op de drie streepjes
+                linksboven om meteen naar een bepaald deel van het gebouw te gaan. Zie jij jezelf hier de komende jaren
+                al rondlopen?</p>
             <iframe src="https://rocwb.nl/upload/rondleidingen/mbo/knipplein-11/"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
         </div>
     </div>
     </main>
