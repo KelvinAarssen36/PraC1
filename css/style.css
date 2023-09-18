@@ -7,6 +7,7 @@ html {
   }
   html{
     font-size: 16px;
+    scroll-behavior:smooth;
 }
 
 body{
@@ -189,7 +190,7 @@ aside{
 }
 .container2
 {
-  background-color: rgb(95, 106, 255);
+  background-color: rgb(148, 155, 255);
   display: grid;
   grid-template-columns: 250px 1fr;
   column-gap: 5rem;
@@ -336,6 +337,39 @@ aside{
   height: auto;
   border-radius: 10%;
 }
+.content_ervaring{
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  column-gap: 5rem;
+  background-color: rgb(226, 255, 123);
+}
+
+.ervaring {
+  overflow-clip-margin: content-box !important;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  overflow: clip !important;
+  width: 100%;
+  height: 30em;
+}
+.ervarings{
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  border-radius: 15px;
+
+}
+.imgervaring{
+  margin-right: 3%;
+  width: 40%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.ervaringtekst{
+  display: flex;}
 
 @media only screen and (max-width: 800px) {
     .html{
@@ -389,7 +423,7 @@ aside{
       margin-left: 0rem;
     margin-right: 0rem;
     }
-.smoelen, .content_vakantie ,.content_toelating ,.content_versnellen ,.container.content ,.content_rooster ,.content_blokken ,.container .content_iframe ,.content_iframe ,.container2{
+.content_ervaring ,.smoelen, .content_vakantie ,.content_toelating ,.content_versnellen ,.container.content ,.content_rooster ,.content_blokken ,.container .content_iframe ,.content_iframe ,.container2{
       display: block; 
     padding-bottom: 1rem;}
 
@@ -408,5 +442,14 @@ aside{
     }
     .aside2 {display: none;}
     .klok{margin-left: 6%;}
+
+    .ervaringtekst{
+      display: block;}
+
+      .imgervaring{
+        width: 100%;
+        height: auto;
+      }
+      
   }
   
