@@ -363,7 +363,7 @@ aside{
 }
 .imgervaring{
   margin-right: 3%;
-  width: 40%;
+  width: 45%;
   height: auto;
   border-radius: 10%;
 }
@@ -371,6 +371,12 @@ aside{
 .ervaringtekst{
   display: flex;}
 
+  .barervaringen{
+    background-color: rgb(202, 247, 41);
+    height: 0.8rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
 @media only screen and (max-width: 800px) {
     .html{
         line-height: 1;
