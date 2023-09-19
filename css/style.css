@@ -274,6 +274,11 @@ aside{
     margin-right: 5rem;
     border-radius: 15px;
   }
+  .barleerwegen{
+    background-color: rgb(141, 248, 243);
+    height: 1rem;
+  }
+
   .content_toelating {
     background-color: rgb(230, 198, 255);
     display: grid;
