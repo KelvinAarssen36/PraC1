@@ -279,6 +279,10 @@ aside{
     height: 1rem;
   }
 
+  .imgbol{
+    height: auto;
+  width: 100%;}
+
   .content_toelating {
     background-color: rgb(230, 198, 255);
     display: grid;
